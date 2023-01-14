@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  background-color: #4267b2;
+  padding: 20px 100px;
+}
+body {
+  background-color: #dfe3ee;
+}
+
+.logo {
+  color: azure;
+  text-shadow: 1px 1px 1px black;
+  font-size: x-large;
+  padding-left: 40px;
+}
+
+.Box {
+  margin-right: 60px;
+}
+.Login {
+  margin-left: 10px;
+}
+input[type="submit"] {
+  padding: 3px 3px;
+}
+
+.Box th {
+  color: white;
+  font-size: small;
+  font-weight: lighter;
+  text-shadow: 1px 1px 1px black;
+  text-align: left;
+  padding-left: 10px;
+}
+section {
+  display: flex;
+  justify-content: space-between;
+}
+.acount {
+  margin-right: 140px;
+  margin-top: 10px;
+}
+.acount th {
+  text-align: left;
+  padding-bottom: 20px;
+}
+.acount th span {
+  font-size: xx-large;
+  padding-left: 5px;
+}
+article {
+  font-weight: normal;
+}
+.text {
+  margin-top: 50px;
+  margin-left: 140px;
+  letter-spacing: 1px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: medium;
+  margin-bottom: 5px;
+  border-radius: 3px;
+  border-color: rgb(189, 183, 183);
+  border-width: thin;
+  margin-left: 2px;
+}
+.bar {
+  width: 390px;
+}
+.pws {
+  width: 390px;
+  padding: 10px;
+  font-size: medium;
+  margin-bottom: 5px;
+  border-radius: 3px;
+  border-color: rgb(189, 183, 183);
+  border-width: thin;
+  margin-left: 2px;
+}
+h4 {
+  margin-top: 5px;
+  margin-bottom: 8px;
+  margin-left: 2px;
+}
+select[type="day"],
+select[type="Months"],
+select[type="year"] {
+  margin: 2px 2px;
+  padding: 3px;
+}
+.DOB {
+  padding-left: 3px;
+  color: rgb(68, 68, 184);
+  font-size: 12px;
+  font-weight: bold;
+}
+input[type="radio"] {
+  margin-bottom: 5px;
+  margin-top: 5px;
+  font-weight: bold;
+
+  margin-left: 2px;
+}
+.note {
+  font-size: small;
+  padding-top: 7px;
+  margin: 2px 2px;
+}
+.note span {
+  color: rgb(68, 68, 184);
+  font-weight: bold;
+}
+.Sbutton {
+  margin: 20px 2px;
+  width: 220px;
+  height: 40px;
+  background-color: #057505;
+  color: white;
+  font-size: large;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 1px black;
+  padding-bottom: 4px;
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+}
+.Lnote {
+  font-size: small;
+  font-weight: bolder;
+  margin-left: 2px;
+  margin: 1px;
+}
+.Lnote span {
+  color: rgb(51, 51, 172);
+}
